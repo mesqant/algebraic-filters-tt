@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Algebraic filters for X-ray scattering tensor tomography: companion notebooks"
+type: software
+license: MIT
+repository-code: "https://github.com/mesqant/algebraic-filters-tt"
+authors:
+  - family-names: "Mesquita Antunes"
+    given-names: "André"
+    affiliation: "Leiden Institute of Advanced Computer Science, Universiteit Leiden"
+  - family-names: "Pelt"
+    given-names: "Daniël Maria"
+    affiliation: "Leiden Institute of Advanced Computer Science, Universiteit Leiden"
+  - family-names: "Batenburg"
+    given-names: "Kees Joost"
+    affiliation: "Leiden Institute of Advanced Computer Science, Universiteit Leiden"
+keywords:
+  - tensor tomography
+  - small-angle X-ray scattering
+  - algebraic filters
+  - filtered back-projection
+  - real-time reconstruction
+preferred-citation:
+  type: article
+  title: "Fast reconstruction of tensor tomographic X-ray scattering data for real-time applications"
+  authors:
+    - family-names: "Mesquita Antunes"
+      given-names: "André"
+    - family-names: "Pelt"
+      given-names: "Daniël Maria"
+    - family-names: "Batenburg"
+      given-names: "Kees Joost"
+  journal: "Optics Express"
+  year: 2026
+  doi: "10.1364/OE.597352"
+  identifiers:
+    - type: other
+      value: "arXiv:2607.19124"
+      description: "arXiv preprint"
