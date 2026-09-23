@@ -1,0 +1,20 @@
+# Full environment (GPU optional). Versions follow the setup used for the paper.
+# GPU users: `conda env create -f environment.yml && conda activate algfilters-tt && pip install cupy-cuda12x`
+name: algfilters-tt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26,<2
+  - scipy>=1.15,<1.17   # mumott 2.1 uses scipy.special.sph_harm, removed in SciPy 1.17
+  - numba=0.58
+  - matplotlib>=3.8
+  - h5py
+  - colorcet
+  - tqdm
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - pip
+  - pip:
+      - mumott==2.1

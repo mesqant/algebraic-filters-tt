@@ -1,0 +1,10 @@
+# Downloaded data and cached intermediate results
+data/*
+!data/.gitkeep
+*.npy
+*.npz
+*.h5
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/

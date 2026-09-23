@@ -1,0 +1,17 @@
+# CPU-only environment for mybinder.org (no GPU available there)
+name: algfilters-tt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26,<2
+  - scipy>=1.15,<1.17   # mumott 2.1 uses scipy.special.sph_harm, removed in SciPy 1.17
+  - numba=0.58
+  - matplotlib>=3.8
+  - h5py
+  - colorcet
+  - tqdm
+  - ipywidgets
+  - pip
+  - pip:
+      - mumott==2.1
