@@ -5,8 +5,8 @@ type: software
 license: MIT
 repository-code: "https://github.com/mesqant/algebraic-filters-tt"
 authors:
-  - family-names: "Mesquita Antunes"
-    given-names: "André"
+  - family-names: "Antunes"
+    given-names: "André M."
     affiliation: "Leiden Institute of Advanced Computer Science, Universiteit Leiden"
   - family-names: "Pelt"
     given-names: "Daniël Maria"
@@ -24,8 +24,8 @@ preferred-citation:
   type: article
   title: "Fast reconstruction of tensor tomographic X-ray scattering data for real-time applications"
   authors:
-    - family-names: "Mesquita Antunes"
-      given-names: "André"
+    - family-names: "Antunes"
+      given-names: "André M."
     - family-names: "Pelt"
       given-names: "Daniël Maria"
     - family-names: "Batenburg"

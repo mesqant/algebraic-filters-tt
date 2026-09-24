@@ -67,29 +67,14 @@ part of this repository. The trabecular bone SASTT dataset and the PMMA box with
 bundles GITT dataset are publicly available; see refs. 38–39 and the *Data availability*
 section of the paper.
 
-## Relation to the paper
-
-The code reproduces the computations behind the paper's figures. Where it differs from the paper's text in
-presentation or convention, the notebook says so in a `# Note:` comment:
-
-- **Iteration count.** Starting from the term $\alpha \mathbf{A}^\top \mathbf{b}$, $k$ iterations sum $k+1$ terms of Eq. (10).
-  The iterative and AF reconstructions use the same convention, so they approximate the same iterate.
-- **Directional representation.** Values are taken at the nearest point of a coarse spherical grid rather than
-  exactly at the 7 directions.
-- **Tensor representation.** The isotropic shift that makes each spherical function non-negative is chosen per
-  voxel, not globally. The second moment (Eq. 14) is integrated with weights that differ from the solid-angle
-  element by a constant factor, which rescales all entries uniformly.
-- **Convolution.** Filters are applied as convolutions, as in the paper. The filters are close to point-symmetric,
-  and applying them as correlations changes the result by less than 0.1%.
-
 ## Citation
 
 If you use this code, please cite the paper:
 
 ```bibtex
-@article{mesquitaantunes2026fast,
+@article{antunes2026fast,
   title   = {Fast reconstruction of tensor tomographic {X}-ray scattering data for real-time applications},
-  author  = {Mesquita Antunes, Andr{\'e} and Pelt, Dani{\"e}l Maria and Batenburg, Kees Joost},
+  author  = {Antunes, Andr{\'e} M. and Pelt, Dani{\"e}l Maria and Batenburg, Kees Joost},
   journal = {Optics Express},
   year    = {2026},
   doi     = {10.1364/OE.597352}
