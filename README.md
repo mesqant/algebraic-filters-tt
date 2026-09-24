@@ -18,7 +18,7 @@ view-dependent mixing operator $Y$ ($A = \overline{W}Y$), so it applies to any t
 modality. These notebooks give a complete implementation for the simulated 'M' phantom: representation changes,
 forward models, filter computation and reconstruction.
 
-![Central slice of the rank-2 tensor representation: ground truth, 50 Landweber iterations, algebraic filters, and their difference](docs/comparison_tensor.png)
+![Central slice of the six rank-2 tensor entries: ground truth, 50 Landweber iterations, and the algebraic filters reconstruction](docs/comparison_tensor.png)
 
 ## Notebooks
 
@@ -76,7 +76,8 @@ presentation or convention, the notebook says so in a `# Note:` comment:
   The iterative and AF reconstructions use the same convention, so they approximate the same iterate.
 - **Directional representation.** Values are taken at the nearest point of a coarse spherical grid rather than
   exactly at the 7 directions.
-- **Tensor representation.** The second moment (Eq. 14) is integrated with weights that differ from the solid-angle
+- **Tensor representation.** The isotropic shift that makes each spherical function non-negative is chosen per
+  voxel, not globally. The second moment (Eq. 14) is integrated with weights that differ from the solid-angle
   element by a constant factor, which rescales all entries uniformly.
 - **Convolution.** Filters are applied as convolutions, as in the paper. The filters are close to point-symmetric,
   and applying them as correlations changes the result by less than 0.1%.
