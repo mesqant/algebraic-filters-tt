@@ -20,7 +20,7 @@ jobs:
 
       - uses: mamba-org/setup-micromamba@v2
         with:
-          environment-file: binder/environment.yml
+          environment-file: environment.yml
           create-args: nbconvert ipykernel
           cache-environment: true
 

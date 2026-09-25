@@ -1,4 +1,0 @@
-#!/bin/bash
-# Bake the simulated 'M' phantom (Nielsen et al., doi:10.5281/zenodo.7673985) into the Binder image
-set -euo pipefail
-wget -q -O data/M_sim_1.0e+01.h5 'https://zenodo.org/records/7673985/files/M_sim_1.0e+01.h5'

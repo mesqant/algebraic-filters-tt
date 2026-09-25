@@ -2,7 +2,6 @@
 
 [![Paper](<https://img.shields.io/badge/Optics%20Express-10.1364%2FOE.597352-blue>)](https://doi.org/10.1364/OE.597352)
 [![arXiv](https://img.shields.io/badge/arXiv-2607.19124-b31b1b)](https://arxiv.org/abs/2607.19124)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mesqant/algebraic-filters-tt/main?urlpath=lab/tree/notebooks/01_representations.ipynb)
 [![CI](https://github.com/mesqant/algebraic-filters-tt/actions/workflows/ci.yml/badge.svg)](https://github.com/mesqant/algebraic-filters-tt/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -38,7 +37,6 @@ back to the CPU otherwise.
 
 | Where                                        | Hardware                                                   | What runs                                                                                                          |
 | -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Binder** (badge above)               | CPU, ~2 GB RAM                                             | Small mode: every 4th of the 417 views. The three notebooks take a few minutes in total. Shut down each notebook's kernel before starting the next (*Kernel → Shut Down Kernel*) to stay within Binder's memory limit. |
 | **Google Colab** (badges in the table) | Free GPU: pick *Runtime → Change runtime type → T4 GPU* | Full size, as in the paper. The first cell clones this repository and installs mumott.                             |
 | **Locally**                            | CPU or NVIDIA GPU                                          | Full size on a GPU, small mode on a CPU. To force small mode, set `small_run = True` in notebook 02's backend cell (or set the environment variable `ALGF_SMALL=1`).                                  |
 
