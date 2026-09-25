@@ -9,10 +9,10 @@ authors:
     given-names: "André M."
     affiliation: "Leiden Institute of Advanced Computer Science, Universiteit Leiden"
   - family-names: "Pelt"
-    given-names: "Daniël Maria"
+    given-names: "Daniël M."
     affiliation: "Leiden Institute of Advanced Computer Science, Universiteit Leiden"
   - family-names: "Batenburg"
-    given-names: "Kees Joost"
+    given-names: "K. Joost"
     affiliation: "Leiden Institute of Advanced Computer Science, Universiteit Leiden"
 keywords:
   - tensor tomography
@@ -27,9 +27,9 @@ preferred-citation:
     - family-names: "Antunes"
       given-names: "André M."
     - family-names: "Pelt"
-      given-names: "Daniël Maria"
+      given-names: "Daniël M."
     - family-names: "Batenburg"
-      given-names: "Kees Joost"
+      given-names: "K. Joost"
   journal: "Optics Express"
   year: 2026
   doi: "10.1364/OE.597352"

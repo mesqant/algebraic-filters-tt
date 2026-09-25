@@ -40,7 +40,7 @@ back to the CPU otherwise.
 | -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **Binder** (badge above)               | CPU, ~2 GB RAM                                             | Small mode: every 4th of the 417 views. The three notebooks take a few minutes in total. |
 | **Google Colab** (badges in the table) | Free GPU: pick *Runtime → Change runtime type → T4 GPU* | Full size, as in the paper. The first cell clones this repository and installs mumott.                             |
-| **Locally**                            | CPU or NVIDIA GPU                                          | Full size on a GPU, small mode on a CPU. Set `ALGF_SMALL=1` to force small mode.                                  |
+| **Locally**                            | CPU or NVIDIA GPU                                          | Full size on a GPU, small mode on a CPU. To force small mode, uncomment the `ALGF_SMALL` line in notebook 02's backend cell (or set `ALGF_SMALL=1`).                                  |
 
 Local installation with conda:
 
@@ -73,7 +73,7 @@ If you use this code, please cite the paper:
 ```bibtex
 @article{antunes2026fast,
   title   = {Fast reconstruction of tensor tomographic {X}-ray scattering data for real-time applications},
-  author  = {Antunes, Andr{\'e} M. and Pelt, Dani{\"e}l Maria and Batenburg, Kees Joost},
+  author  = {Antunes, Andr{\'e} M. and Pelt, Dani{\"e}l M. and Batenburg, K. Joost},
   journal = {Optics Express},
   year    = {2026},
   doi     = {10.1364/OE.597352}
