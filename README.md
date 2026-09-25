@@ -40,7 +40,7 @@ back to the CPU otherwise.
 | -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **Binder** (badge above)               | CPU, ~2 GB RAM                                             | Small mode: every 4th of the 417 views. The three notebooks take a few minutes in total. |
 | **Google Colab** (badges in the table) | Free GPU: pick *Runtime → Change runtime type → T4 GPU* | Full size, as in the paper. The first cell clones this repository and installs mumott.                             |
-| **Locally**                            | CPU or NVIDIA GPU                                          | Full size on a GPU, small mode on a CPU. To force small mode, uncomment the `ALGF_SMALL` line in notebook 02's backend cell (or set `ALGF_SMALL=1`).                                  |
+| **Locally**                            | CPU or NVIDIA GPU                                          | Full size on a GPU, small mode on a CPU. To force small mode, set `small_run = True` in notebook 02's backend cell (or set the environment variable `ALGF_SMALL=1`).                                  |
 
 Local installation with conda:
 
