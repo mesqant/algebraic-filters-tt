@@ -1,4 +1,4 @@
-# Execute all notebooks on CPU (small mode) to make sure they keep running with the pinned environment
+# Execute all notebooks on CPU (full size) to make sure they keep running with the pinned environment
 name: CI
 
 on:
@@ -11,7 +11,7 @@ on:
 jobs:
   notebooks:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     defaults:
       run:
         shell: bash -el {0}
@@ -32,8 +32,6 @@ jobs:
 
       - name: Execute notebooks
         working-directory: notebooks
-        env:
-          ALGF_SMALL: '1'
         run: |
           for notebook in 0*.ipynb; do
             jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=1800 --output-dir /tmp "$notebook"

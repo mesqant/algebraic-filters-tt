@@ -38,7 +38,7 @@ back to the CPU otherwise.
 | Where                                        | Hardware                                                   | What runs                                                                                                          |
 | -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **Google Colab** (badges in the table) | Free GPU: pick *Runtime → Change runtime type → T4 GPU* | Full size, as in the paper. The first cell clones this repository and installs mumott.                             |
-| **Locally**                            | CPU or NVIDIA GPU                                          | Full size on a GPU, small mode on a CPU. To force small mode, set `small_run = True` in notebook 02's backend cell (or set the environment variable `ALGF_SMALL=1`).                                  |
+| **Locally**                            | CPU or NVIDIA GPU                                          | Full size, as in the paper, on a GPU or on the CPU (notebook 03 then takes ~12 min on 2 cores). For a quicker look, set `small_run = True` in notebook 02 (every 4th view). |
 
 Local installation with conda:
 
