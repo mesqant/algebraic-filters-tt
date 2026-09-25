@@ -37,7 +37,7 @@ back to the CPU otherwise.
 
 | Where                                        | Hardware                                                   | What runs                                                                                                          |
 | -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Google Colab** (badges in the table) | Free GPU: pick *Runtime → Change runtime type → T4 GPU* | Full size, as in the paper. The first cell clones this repository and installs mumott.                             |
+| **Google Colab** (badges in the table) | Free GPU: pick *Runtime → Change runtime type → T4 GPU* | Full size. The first cell clones this repository and installs mumott 2.3 and CuPy: mumott 2.1, used for the paper, does not install on Colab's Python, and mumott 2.3's slightly different projector changes results by a few percent.                             |
 | **Locally**                            | CPU or NVIDIA GPU                                          | Full size, as in the paper, on a GPU or on the CPU (notebook 03 then takes ~12 min on 2 cores). For a quicker look, set `small_run = True` in notebook 02 (every 4th view). |
 
 Local installation with conda:
