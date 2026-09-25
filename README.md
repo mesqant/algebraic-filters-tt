@@ -38,7 +38,7 @@ back to the CPU otherwise.
 
 | Where                                        | Hardware                                                   | What runs                                                                                                          |
 | -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Binder** (badge above)               | CPU, ~2 GB RAM                                             | Small mode: every 4th of the 417 views. The three notebooks take a few minutes in total. |
+| **Binder** (badge above)               | CPU, ~2 GB RAM                                             | Small mode: every 4th of the 417 views. The three notebooks take a few minutes in total. Shut down each notebook's kernel before starting the next (*Kernel → Shut Down Kernel*) to stay within Binder's memory limit. |
 | **Google Colab** (badges in the table) | Free GPU: pick *Runtime → Change runtime type → T4 GPU* | Full size, as in the paper. The first cell clones this repository and installs mumott.                             |
 | **Locally**                            | CPU or NVIDIA GPU                                          | Full size on a GPU, small mode on a CPU. To force small mode, set `small_run = True` in notebook 02's backend cell (or set the environment variable `ALGF_SMALL=1`).                                  |
 
