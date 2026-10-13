@@ -4,6 +4,14 @@ title: "Algebraic filters for X-ray scattering tensor tomography: companion note
 type: software
 license: MIT
 repository-code: "https://github.com/mesqant/algebraic-filters-tt"
+doi: "10.5281/zenodo.23338080"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23338081"
+    description: "This version (v1.0.0)"
+  - type: doi
+    value: "10.5281/zenodo.23338080"
+    description: "All versions (concept DOI, resolves to the latest version)"
 authors:
   - family-names: "Antunes"
     given-names: "André M."

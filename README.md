@@ -2,6 +2,7 @@
 
 [![Paper](<https://img.shields.io/badge/Optics%20Express-10.1364%2FOE.597352-blue>)](https://doi.org/10.1364/OE.597352)
 [![arXiv](https://img.shields.io/badge/arXiv-2607.19124-b31b1b)](https://arxiv.org/abs/2607.19124)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23338080.svg)](https://doi.org/10.5281/zenodo.23338080)
 [![CI](https://github.com/mesqant/algebraic-filters-tt/actions/workflows/ci.yml/badge.svg)](https://github.com/mesqant/algebraic-filters-tt/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -79,6 +80,8 @@ If you use this code, please cite the paper:
 ```
 
 GitHub's *Cite this repository* button (from [`CITATION.cff`](CITATION.cff)) gives the same reference.
+
+To refer to the code itself, cite its Zenodo archive, [doi:10.5281/zenodo.23338080](https://doi.org/10.5281/zenodo.23338080).
 
 ## Acknowledgements
 
